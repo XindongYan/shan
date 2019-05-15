@@ -8,7 +8,7 @@
 }
 #exhibition {
     height: 192px;
-    width: 850px;
+    /* width: 850px; */
     display: inline-block;
     font-size: 0;
 }

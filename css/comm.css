@@ -75,11 +75,11 @@ html {
 color: #3b3b3b;}
 
 nav li {
-    padding:10px;
     float: left;
-    width: 64px;
+    /* width: 64px; */
     height: 32px;
-    margin-right: 21.6%;
+    /* margin-right: 21.6%; */
+    margin-right: 10%;
     margin-bottom: 2%;
     padding: 10px 0 10px;
     /* height: 28px; */

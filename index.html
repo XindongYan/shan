@@ -83,8 +83,8 @@
 
 	<div id="banner">
 		<div id="exhibition">
-			<img id="pics" src="./images/banner1.jpg" alt="banner1">
-			<img id="pics" src="./images/banner2.jpg" alt="banner2">
+			<img id="pics1" src="./images/banner1.jpg" alt="banner1">
+			<img id="pics2" src="./images/banner2.jpg" alt="banner2">
 		</div>
 	</div>
 	<div class="in_icon">
@@ -262,6 +262,31 @@
 	<script type="text/javascript">
 		$(document).ready(function () {
 
+			let pics = 0;
+
+			// 获取屏幕分辨率
+			const width = document.documentElement.clientWidth;
+
+			// 2是指图片数量
+			document.getElementById('exhibition').style.width = width * 2 + 'px';
+
+			// 设置要滚动图的宽
+			document.getElementById('pics1').style.width = width + 'px';
+			document.getElementById('pics2').style.width = width + 'px';
+
+			setInterval(() => {
+				if (pics < 1) {
+					document.getElementById('exhibition').style.marginLeft = -1 * width + 'px';
+					pics++;
+					console.log('跳转');
+				} else {
+					console.log('返回');
+					document.getElementById('exhibition').style.marginLeft = 0 + 'px';
+					pics = 0;
+
+				}
+			}, 3000);
+
 			$(".fc_img").css('width', $(".tp_li2 li").width() + "px");
 			$(".fc_img").css('height', $(".tp_li2 li").width() * 0.75 + "px");
 
@@ -303,11 +328,6 @@
 		});
 
 	</script>
-
-
-
-
-
 
 	<script type="text/javascript">
 		var SHAKE_THRESHOLD = 3000;
@@ -392,37 +412,6 @@
 
 		});
 	</script>
-
-	<script>
-		let pics = 0;
-
-		// 获取屏幕分辨率
-		const width = document.documentElement.clientWidth;
-
-		// 2是指图片数量
-		document.getElementById('exhibition').style.width = width * 2;
-
-		// 设置要滚动图的宽
-		document.getElementById('pics').style.width = width;
-
-		setInterval(() => {
-			if (pics < 1) {
-				document.getElementById('exhibition').style.marginLeft = -1 * width + 'px';
-				pics++;
-				console.log('跳转');
-			} else {
-				console.log('返回');
-				document.getElementById('exhibition').style.marginLeft = 0 + 'px';
-				pics = 0;
-
-			}
-		}, 3000);
-
-	</script>
-
-
-
-
 
 </body>
 
