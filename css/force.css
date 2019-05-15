@@ -1,0 +1,349 @@
+#jesong_chat_layout{
+	overflow:hidden;
+	display:none;
+	z-index:2147483647;
+	right:1px;bottom:1px;
+	position:fixed;
+	_position:absolute;_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+
+.jesong_full_body{
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: hidden !important;
+}
+
+#jesong_chat_layout div, #jesong_chat_layout p, #jesong_chat_layout span{margin:0;padding:0;text-align:left;font-size:12px;color:#000000;font-family:Microsoft YaHei;line-height: 16px;letter-spacing: 0.06rem;}
+
+#jesong_chat_layout .jesong_text_blur{color:#bbbbbb}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head{
+	width:100%; height:46px; overflow:hidden;
+}
+
+.jesong_chat_body .jesong_chat_top #jesong_chat_record .jesong-user-msg{
+   padding-top:12px;
+}
+
+.jesong_chat_body .jesong_chat_top #jesong_chat_record .jesong-visitor-msg{
+   padding-top:12px;
+}
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head .jesong_logo{
+	float:left;width:210px;height:35px;margin-left:6px;margin-top:6px;display:inline;cursor:move;_cursor:auto;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head .jesong_logo img{float:left;width:35px;height:35px;border:0px;}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head .jesong_logo div{float:left;padding-left:10px;line-height:35px;font-size:14px;color:#ffffff;}
+
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head {border-top-left-radius:4px;border-top-right-radius:4px;box-sizing: border-box;}
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head #jesong_chat_sound{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:5px;background:url(../images/auto/icon-sound-nor.png) no-repeat center center;display:inline;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head #jesong_chat_sound.close{
+	background:url(../images/auto/icon-sound-high.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head #jesong_chat_close{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:15px;background:url(../images/auto/icon-close.png) no-repeat center center;display:inline;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_head #jesong_chat_min_btn{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:5px;background:url(../images/auto/icon-min.png) no-repeat center center;display:inline;
+}
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body{
+	background-color:#F3F3F8;
+	border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;box-sizing: border-box;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_top{
+	position:relative;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_top #jesong_chat_record{
+	padding:0;margin:0;height:100%;overflow-x:hidden;overflow-y:auto;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools{
+	width:100%; height:32px; border-top:1px solid #dddddd; border-bottom:1px solid #dddddd;background-color:#ffffff;box-sizing: border-box;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools div{
+	float:left;height:100%;width:26px;margin-left:3px;cursor:pointer;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools .emoticons{
+	background:url(../images/auto/icon-biaoqing-nor.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools #jesong_tools_emoticons.hover{
+	background:url(../images/auto/icon-biaoqing-high.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools .file{
+	background:url(../images/auto/icon-fasong-nor.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools #jesong_tools_file.hover{
+	background:url(../images/auto/icon-fasong-high.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools .screen{
+	background:url(../images/auto/icon-img-nor.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools #jesong_tools_screen.hover{
+	background:url(../images/auto/icon-img-high.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools .opinion{
+	background:url(../images/auto/icon-pingjia-nor.png) no-repeat center center;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_tools #jesong_tools_opinion.hover{
+	background:url(../images/auto/icon-pingjia-high.png) no-repeat center center;
+}
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_bottom{
+	position:relative; width:100%; height:105px;background-color:#ffffff;
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_bottom textarea{
+	height:75px;width:100%;font-size:12px;line-height:20px;text-indent:4px;*text-indent:0px;margin:0;padding:0;border:0px;outline:none;resize:none;overflow-y:auto;background-color:#F3F3F8;
+	border-bottom:1px solid #dddddd;box-sizing: border-box; 
+}
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_bottom #jesong_chat_send_btn{
+	position:absolute;width:58px;height:22px;right:15px;bottom:4px;color:#ffffff;cursor:pointer;line-height:22px;text-align:center;border-radius:4px;
+}
+
+#jesong_chat_layout.jesong_chat_layout_pc .jesong_chat_body .jesong_chat_bottom #jesong_chat_inputting{
+	position:absolute;display:none;width:80px;height:22px;left:15px;bottom:4px;color:#aaaaaa;line-height:22px;text-align:left;
+}
+
+
+#jesong_chat_record .jesong_msg_welcome{
+	clear:both;color:#2694e9;margin-left:10px;margin-right:10px;margin-top:15px;text-align:center;line-height:1px;
+}
+#jesong_chat_record .jesong_msg_welcome_text{
+	clear:both;color:#2694e9;line-height:22px;padding-left:10px;padding-right:10px;margin-top:10px;word-wrap:break-word;word-break:break-all;
+}
+#jesong_chat_record .jesong_msg_welcome_text *{
+	font-size:inherit;word-wrap:break-word;word-break:break-all;
+}
+
+#jesong_chat_record .jesong_msg_visitor{
+	clear:both;padding-right:9px;padding-left:10px;padding-right:10px;padding-top:10px;
+	*zoom:1;*display:block;
+}
+#jesong_chat_record .jesong_msg_visitor .jesong_time{
+	text-align:right;color:#999999;line-height:12px;
+}
+#jesong_chat_record .jesong_msg_visitor .jesong_msg_text{
+	float:right;display:inline-block;margin-top:5px;margin-bottom:2px;border:1px solid #98d2ff; box-sizing: border-box; background-color:#ffffff;color:#343434;padding-top:5px;padding-bottom:5px;padding-left:16px;padding-right:14px;;line-height:22px;word-wrap:break-word;word-break:break-all;
+}
+#jesong_chat_record .jesong_msg_user{
+	clear:both;padding-right:9px;padding-left:10px;padding-right:10px;padding-top:10px;
+	*zoom:1;*display:block;
+}
+#jesong_chat_record .jesong_msg_user .jesong_time{
+	color:#999999;line-height:14px;
+}
+#jesong_chat_record .jesong_msg_user .jesong_msg_text{
+	clear:left;display:inline-block;margin-top:5px;margin-bottom:2px;border:1px solid #e0e0e0; box-sizing: border-box; background-color:#2694e9;color:#ffffff;padding-top:5px;padding-bottom:5px;padding-left:14px;padding-right:16px;line-height:22px;word-wrap:break-word;word-break:break-all;
+}
+#jesong_chat_record .jesong_msg_user .jesong_msg_text *{
+	background-color:#2694e9;color:#ffffff;
+}
+
+#jesong_chat_record .jesong_msg_system{
+	clear:both;line-height:22px;padding-left:10px;padding-right:10px;color:#b6b6b6;text-align:center;word-wrap:break-word;word-break:break-all;
+}
+
+#jesong_file_layout, #jesong_emoticon_layout{
+	position:absolute;bottom:0px;left:0px;border-top:1px solid #dddddd; box-sizing: border-box;width:100%;display:none;background-color:#ffffff;z-index:9;
+}
+
+#jesong_emoticon_layout div{
+	float:left;cursor:pointer;width:34px;height:34px;
+}
+#jesong_emoticon_layout div.hover{
+	background-color:#f0f0f0;
+}
+#jesong_emoticon_layout div img{
+	margin-top:7px;margin-left:7px;border:0px;
+}
+
+.jesong_phone_mask {position:fixed;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483640;filter:alpha(opacity=10);opacity: 0.1;background:#000000;}
+#jesong_chat_layout #jesong_mask{position:absolute;top:0px;left:0px;z-index:10;filter:alpha(opacity=30);opacity: 0.3;background:#000000;display:none;}
+/* #jesong_chat_layout #jesong_opinion_layout, #jesong_chat_layout #jesong_opinion_reason_layout{position:absolute;width:220px;height:330px;display:none;z-index:11;background:url(../images/auto/opinion-bg.png) no-repeat center center;}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_title, #jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_title{
+	font-size:14px;color:#2694e9;width:100%;text-align:center;line-height:14px;margin-top:25px;
+}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects{
+	width:100%;margin-top:5px;margin-left:60px;
+}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects .jesong_opinion_select{
+	font-size:14px;color:#999999;padding-left:20px;margin-top:23px;line-height:16px;background:url(../images/auto/icon-gouxuan-nor.png) no-repeat center left;cursor:pointer;
+}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects .jesong_opinion_select_yes{
+	background:url(../images/auto/icon-gouxuan-high.png) no-repeat center left;
+}
+#jesong_chat_layout #jesong_opinion_layout #jesong_opinion_commit, #jesong_chat_layout #jesong_opinion_reason_layout #jesong_opinion_reason_commit{
+	width:80px;height:26px;margin-left:60px;margin-top:35px;background:url(../images/auto/btn-tijiao-nor.png) no-repeat center left; text-align:center;font-size:14px;line-height:26px;color:#ffffff;cursor:pointer;
+}
+#jesong_chat_layout #jesong_opinion_layout #jesong_opinion_commit.hover, #jesong_chat_layout #jesong_opinion_reason_layout #jesong_opinion_reason_commit.hover{
+	background:url(../images/auto/btn-tijiao-hover.png) no-repeat center left;
+}
+#jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_reason{
+	width:170px;margin-left:25px;margin-top:15px;height:200px;
+}
+#jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_reason textarea{
+	width:100%;height:100%;overflow:auto;line-height:25px;
+} */
+
+
+#jesong_chat_min{
+	display:none; z-index:9999999; height:46px; border-width:2px; box-sizing: border-box; border-style:solid; position:fixed;_position:absolute; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); right:1px;bottom:1px;
+	border-top-left-radius:4px;border-top-right-radius:4px;
+}
+#jesong_chat_min #jesong_chat_min_logo{float:left;width:210px;height:30px;margin-left:10px;margin-top:5px;display:inline;line-height:30px;font-size:12px;color:#ffffff;cursor:pointer;}
+/* #jesong_chat_min.jesong_chat_min_sc .jesong_logo{background:url(../images/auto/logo-cn.png) no-repeat;}
+#jesong_chat_min.jesong_chat_min_en .jesong_logo{background:url(../images/auto/logo-en.png) no-repeat;} */
+
+#jesong_chat_min #jesong_chat_min_logo img{float:left;width:35px;height:35px;border:0px;}
+#jesong_chat_min #jesong_chat_min_logo div{float:left;padding-left:10px;line-height:35px;font-size:14px;color:#ffffff;}
+/* 
+#jesong_chat_min #jesong_chat_min_logo.jesong_message{background:url(../images/auto/icon-message-high.png) no-repeat center left; padding-left:35px;width:175px;}
+ */
+
+#jesong_chat_min #jesong_chat_min_sound{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:5px;background:url(../images/auto/icon-sound-nor.png) no-repeat center center;display:inline;
+}
+#jesong_chat_min #jesong_chat_min_sound.close{
+	background:url(../images/auto/icon-sound-high.png) no-repeat center center;
+}
+#jesong_chat_min #jesong_chat_min_close{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:5px;background:url(../images/auto/icon-close.png) no-repeat center center;display:inline;
+}
+#jesong_chat_min #jesong_chat_min_max{
+	float:right;width:18px;height:18px;cursor:pointer;margin-top:14px;margin-right:5px;background:url(../images/auto/icon-max.png) no-repeat center center;display:inline;
+}
+
+#jesong_pop_msg{
+	display:none;z-index:9999998;position:fixed;cursor:pointer;height:60px;
+}
+.jesong_guide_layout{
+	display:none;z-index:9999999;position:fixed;cursor:pointer;height:56px;opacity:0;filter:alpha(opacity:0);top:0px;left:0px;right:0px;width:100%;
+}
+#jesong_pop_msg.jesong_pop_msg_phone{top:0px;left:0px;right:0px;width:100%;}
+#jesong_pop_msg.jesong_pop_msg_phone .jesong_pop_msg_head{position:absolute;top:3px;left:5px;height:50px;width:50px;background:url(../images/chat/201805/red.png) no-repeat -14px -20px;background-size:48px 55px;}
+#jesong_pop_msg.jesong_pop_msg_phone .jesong_pop_msg_head img{width:40px;height:40px;border:0px;margin-top:5px;margin-left:5px;}
+#jesong_pop_msg.jesong_pop_msg_phone .jesong_pop_msg_title{position:relative;margin-top:8px;margin-left:55px;margin-right:10px;height:20px;overflow:hidden;}
+#jesong_pop_msg.jesong_pop_msg_phone .jesong_pop_msg_title span{font-size:14px;line-height:20px;}
+#jesong_pop_msg.jesong_pop_msg_phone .jesong_pop_msg_content{position:relative;margin-left:55px;margin-right:10px;font-size:12px;height:20px;line-height:20px;overflow:hidden;}
+#jesong_pop_msg.jesong_pop_msg_pc{
+	_position:absolute;_bottom:auto; _top:expression(eval(-70+document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	right:1px;bottom:70px;border-width:2px; border-style:solid;  background-color:#ffffff;
+}
+#jesong_pop_msg .jesong_pop_msg_arrow{
+	position:absolute; width:20px; height:30px; bottom:-30px; right:30px; 
+}
+#jesong_pop_msg .jesong_pop_msg_arrow *{display:block; border-width:15px 10px; position:absolute; border-style:solid dashed dashed dashed; font-size:0; line-height:0; }
+#jesong_pop_msg .jesong_pop_msg_context{margin-left:18px;padding-bottom:8px;}
+#jesong_pop_msg .jesong_pop_msg_context div{width:100%;font-family:Microsoft YaHei;word-wrap:break-word;word-break:break-all;}
+#jesong_pop_msg .jesong_pop_msg_context #jesong_pop_msg_user{font-size:14px;color:#333333;margin-top:14px;line-height:14px;}
+#jesong_pop_msg .jesong_pop_msg_context .jesong_pop_msg_user_line{height:1px;margin-top:8px;border-top:1px solid #e0e0e0;}
+#jesong_pop_msg .jesong_pop_msg_context #jesong_pop_msg_text{margin-top:4px;line-height:20px;font-size:12px;color:#666666;}
+
+#jesong_chat_layout .jesong_call_center{margin-left:16px;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field{clear:left;margin-top:20px;position:relative;display:inline-block;;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field div{float:left;line-height:30px;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field .jesong_call_head{padding-left:0px;width:28px;height:30px;}
+
+#jesong_chat_layout .jesong_call_center .jesong_call_field .jesong_call_context{margin-left:12px;*display:inline;}
+
+#jesong_chat_layout .jesong_call_center .jesong_call_field input{height:30px;width:230px;font-size:12px;line-height:30px;text-indent:4px;margin:0;padding:0;border:1px solid #dddddd;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field textarea{height:150px;width:230px;font-size:12px;line-height:30px;text-indent:4px;margin:0;padding:0;border:1px solid #dddddd;overflow-y:auto;}
+
+#jesong_chat_layout .jesong_text_blur{color:#aaaaaa}
+
+#jesong_chat_layout .jesong_call_center .jesong_call_field .jesong_name_icon{background:url(../images/auto/icon-name.png) no-repeat center center;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field .jesong_tel_icon{background:url(../images/auto/icon-tell.png) no-repeat center center;}
+#jesong_chat_layout .jesong_call_center .jesong_call_field .jesong_content_icon{background:url(../images/auto/icon-liuyan.png) no-repeat center center;}
+
+#jesong_chat_layout .jesong_call_center #jesong_commit{width:80px;height:26px;background:url(../images/auto/btn-tijiao-nor.png) no-repeat center left; text-align:center;font-size:14px;line-height:26px;color:#ffffff;cursor:pointer;}
+
+#jesong_chat_layout .jesong_call_center #jesong_commit.hover{
+	background:url(../images/auto/btn-tijiao-hover.png) no-repeat center left;
+}
+
+
+#jesong_chat_layout.jesong_phone_layout{bottom:0px;left:0px;right:0px;width:100%;overflow-x:hidden;position:fixed;}
+
+.jesong_phone_layout .jesong_chat_head{width:100%;height:45px;border-top-left-radius:8px;border-top-right-radius:8px;box-sizing: border-box;overflow:hidden;}
+.jesong_phone_layout .jesong_chat_head #jesong_chat_close{display:none;}
+.jesong_phone_layout .jesong_chat_head #jesong_chat_min_btn{width:35px;height:100%;float:right;margin-right:10px;background:url(../images/chat/201805/close2.png) no-repeat center center;background-size:60%;}
+.jesong_phone_layout .jesong_chat_body{width:100%;overflow:hidden;background-color:#F1F9FF;}
+.jesong_phone_layout .jesong_chat_body #jesong_chat_record{width:100%;height:100%;overflow-x:hidden;overflow-y:auto;}
+.jesong_phone_layout .jesong_chat_body #jesong_chat_record #jesong_chat_record_user{width:100%;font-size:14px;font-family:"Microsoft YaHei";line-height:25px;height:25px;}
+.jesong_phone_layout .jesong_chat_body #jesong_chat_record li{clear:both;font-size:12px;font-family:"Microsoft YaHei";line-height:18px;list-style-type:none;}
+.jesong_phone_layout .jesong_chat_phone_bottom{width:100%;height:125px;overflow:hidden;background-color:#ffffff;}
+
+.jesong_phone_layout .jesong_chat_phone_bottom #jesong_copyright{position:relative;text-align:center;height:35px;width:100%;}
+.jesong_phone_layout .jesong_chat_phone_bottom #jesong_copyright span{height:100%;font-size:12px;line-height:35px;color:#E6E6E6;background:url(../images/chat/201805/logo.png) left center no-repeat;background-size:12px 14px;padding-left:14px;}
+
+.jesong_phone_layout .jesong_chat_phone_bottom .jesong_chat_tools{
+	width:100%; height:35px;background-color:#ffffff;box-sizing: border-box;
+}
+.jesong_phone_layout .jesong_chat_phone_bottom .jesong_chat_tools div{
+	float:left;height:100%;width:30px;margin-left:3px;
+}
+.jesong_phone_layout .jesong_chat_phone_bottom .jesong_chat_tools .emoticons{
+	background:url(../images/auto/phone-emotion.png) no-repeat center center;background-size:50%;
+}
+
+.jesong_phone_layout .jesong_chat_phone_bottom .jesong_chat_tools .opinion{
+	background:url(../images/auto/phone-opinion.png) no-repeat center center;background-size:50%;
+}
+
+.jesong_phone_layout .jesong_chat_phone_bottom .jesong_chat_tools .tel{
+	background:url(../images/auto/phone-call.png) no-repeat center center;background-size:50%;
+}
+
+#jesong_chat_layout #jesong_opinion_layout, #jesong_chat_layout #jesong_opinion_reason_layout{width:250px;background:none;position:absolute;height:330px;display:none;z-index:11;}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_title, #jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_title{
+	width:100%;height:43px;line-height:43px;background-color:#1A8CE4;color:#ffffff;font-size:16px;text-align:center;margin:0;
+}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects{margin:0;padding:0;background-color:#ffffff;width:100%;}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects div{
+	height:43px;line-height:43px;font-size:14px;text-align:center;width:100%;cursor:pointer;
+}
+#jesong_chat_layout #jesong_opinion_layout .jesong_opinion_selects div#jesong_op_cancel{background-color:#999999;color:#ffffff;}
+#jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_reason{
+	height:215px;overflow:hidden;
+}
+#jesong_chat_layout #jesong_opinion_reason_layout .jesong_opinion_reason textarea{
+	width:100%;height:100%;overflow:auto;line-height:25px;border:0px;box-sizing: border-box;height:215px;padding:0;
+}
+#jesong_chat_layout #jesong_opinion_reason_layout #jesong_opinion_reason_commit{float:left;width:125px;height:43px;line-height:43px;background-color:#1A8CE4;cursor:pointer;color:#ffffff;text-align:center;font-size:14px;}
+#jesong_chat_layout #jesong_opinion_reason_layout #jesong_opinion_reason_cancel{float:left;width:125px;height:43px;line-height:43px;background-color:#999999;cursor:pointer;color:#ffffff;text-align:center;font-size:14px;}
+
+#jesong_chat_layout .jesong-user-msg, #jesong_chat_layout .jesong-sys-msg{clear:both;position:relative;margin-left:4px;margin-top:5px;margin-bottom:5px;}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-head, #jesong_chat_layout .jesong-sys-msg .jesong-msg-head{float:left;width:35px;height:35px;margin-left: 2px;}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-head img, #jesong_chat_layout .jesong-sys-msg .jesong-msg-head img{border:0px;width:100%;height:100%;}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-name{padding:0px;margin-top:0px;margin-bottom:2px;margin-left:52px;margin-right:50px;text-align:left;color:#aaaaaa;}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-layout, #jesong_chat_layout .jesong-sys-msg .jesong-msg-layout{position:relative;display:inline-block;width:auto;max-width:100%;background-color:#ffffff;border-radius:4px;margin-top:0px}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-layout .jesong-msg-triangle, #jesong_chat_layout .jesong-sys-msg .jesong-msg-layout .jesong-msg-triangle{position:absolute;height:0px;width:0px;border-width:6px;border-style:solid;border-color:transparent #ffffff transparent transparent;left:-11px;top:8px;}
+#jesong_chat_layout .jesong-user-msg .jesong-msg-layout .jesong-msg-content, #jesong_chat_layout .jesong-sys-msg .jesong-msg-layout .jesong-msg-content{text-align:left; padding: 10px 10px 10px 10px;word-wrap:break-word;word-break:break-all;}
+
+#jesong_chat_inputting.jesong-user-msg .jesong-msg-layout .jesong-msg-content span{background:url(../images/chat/201805/inputing.png) left center no-repeat;background-size:12px 12px; padding-left:17px; color:#098AE6;}
+#jesong_chat_layout .jesong-top-image{margin-left:10px;margin-right:10px;margin-top:10px;overflow:hidden;}
+#jesong_chat_layout .jesong-top-image img{width:100%;height:auto;border:0px;}
+
+#jesong_chat_layout .jesong-user-msg .jesong-msg-layout, .jesong-sys-msg .jesong-msg-layout li{list-style:none;}
+
+#jesong_chat_layout .jesong-visitor-msg{zoom:1;clear:both;position:relative;float:right;display:inline;margin-right:6px;margin-top:5px;margin-bottom:5px;width:100%;height:auto;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-head{float:right;width:35px;height:35px;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-head img{border:0px;width:100%;height:100%;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-name{padding:0px;margin-top:0px;margin-bottom:2px;margin-left:52px;margin-right:49px;text-align:right;color:#aaaaaa;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-layout{position:relative;display:inline-block;float:right;background-color:#7FACDD;border-radius:4px;margin-top:0px;text-align:left;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-layout .jesong-msg-triangle{position:absolute;height:0px;width:0px;border-width:6px;border-style:solid;border-color:transparent transparent transparent #7FACDD;right:-10px;top:8px;}
+#jesong_chat_layout .jesong-visitor-msg .jesong-msg-layout .jesong-msg-content{text-align:left; padding: 10px 10px 10px 10px;color:#ffffff;word-wrap:break-word;word-break:break-all;}
+
+#jesong_chat_layout .jesong-msg-content *{margin:0px; padding:0px;word-wrap:break-word;word-break:break-all;}
+
+#jesong_chat_layout .jesong-msg-timer{clear:both;text-align:center;height:15px;line-height:15px;margin-top:5px;margin-bottom:10px;color:#aaaaaa;}

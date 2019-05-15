@@ -1,0 +1,25 @@
+#banner{
+    height: 192px;
+    width: 100%;
+    overflow: hidden;
+    /* background: url(../images/banner1.jpg) no-repeat center;
+    background-size: cover;
+    animation: banner 10s infinite; */
+}
+#exhibition {
+    height: 192px;
+    width: 850px;
+    display: inline-block;
+    font-size: 0;
+}
+
+#exhibition img {
+    height: 192px;
+}
+/* @keyframes banner {
+    100%{
+       background: url(../images/banner2.jpg) no-repeat center;
+       background-size: cover;
+       
+    }
+} */

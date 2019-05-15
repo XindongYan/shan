@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>山东大学-带标题内容页（新闻内容、简章内容等）</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0;" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+
+
+<link href="css/comm2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/daohang.css">
+
+<script type="text/javascript" async="" src="js/force.js" charset="utf-8"></script>
+<script src="js/hm.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/flipsnap.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body style="padding-bottom: 56px;">
+
+
+<div class="headw">
+	<a href="index.html"><img src="images/logo.png" class="home"></a>
+    <a href="tel:0531-88362456"><img src="images/tel.png" class="tel"></a>
+</div>
+<div class="yp_cont" >
+	<div class="biao">
+			<h2>山东大学研究院国际本科精英计划招生简章</h2>
+			<p style="color:#b8bbc3;font-size:12px;margin-top: 10px">2019-06-02</p>
+	</div>
+	
+    <div class="yp_cont_wz" deep="1">
+		<p>山东大学是一所历史悠久、学科齐全、学术实力雄厚、办学特色鲜明，在国内外具有重要影响的教育部直属重点综合性大学，是国家“211工程”和“985工程”重点建设的高水平大学之一。</p>
+		<p>山东大学是中国近代高等教育的起源性大学，其主体是1901年创办的山东大学堂，是继京师大学堂之后中国创办的第二所国立大学，也是中国第一所按章程办学的大学。从诞生起，学校先后历经了山东大学堂、国立青岛大学、国立山东大学、山东大学以及由原山东大学、山东医科大学、山东工业大学三校合并组建的新山东大学等几个历史发展时期。百余年间，山东大学秉承"为天下储人才"、"为国家图富强"的办学宗旨，践行"学无止境，气有浩然"的校训，踔厉奋发，薪火相传，形成了"崇实求新"的校风，为国家和社会培养了40余万各类人才，为国家和区域经济社会发展做出了重要贡献。</p>
+</div>
+</div>
+<!-- 尾部 -->
+<div class="footer">
+    联系方式：电话：0531-88366595  | 地址：济南市山大南路27号，山东大学中心校区知新楼1113室  | 邮箱：iup@sdu.edu.cn<br>
+	版权所有 © 山东大学继续教育学院 鲁ICP备05001952号
+</div>
+<dl id="position">
+		<dd><a href="index.html"><img src="images/shouye.png"><font>院校首页</font></a></dd>
+		<dd><a href="jianzhang.html"><img src="images/jianzhang.png"><font>招生简章</font></a></dd>
+		<dd><a href="#"><img src="images/zixun.png"><font>在线咨询</font></a></dd>
+		<dd><a href="#"><img src="images/dianhua.png"><font>免费电话</font></a></dd>
+		<dd><a href="baoming.html"><img src="images/xianxiabaoming.png"><font>在线报名</font></a></dd>
+</dl>
+
+  
+  
+
+
+<script type="text/javascript">
+		var SHAKE_THRESHOLD = 3000;
+        var last_update = 0;
+        var x = y = z = last_x = last_y = last_z = 0;
+        function init() {
+            if (window.DeviceMotionEvent) {
+                window.addEventListener('devicemotion', deviceMotionHandler, false);
+            } else {
+                alert('not support mobile event');
+            }
+        }
+        function deviceMotionHandler(eventData) {
+            var acceleration = eventData.accelerationIncludingGravity;
+            var curTime = new Date().getTime();
+            if ((curTime - last_update) > 100) {
+                var diffTime = curTime - last_update;
+                last_update = curTime;
+                x = acceleration.x;
+                y = acceleration.y;
+                z = acceleration.z;
+                var speed = Math.abs(x + y + z - last_x - last_y - last_z) / diffTime * 10000;
+                if (speed > SHAKE_THRESHOLD) {
+                    //alert("摇动了");
+					window.location.href = 'tel://0512-65218698';
+                }
+                last_x = x;
+                last_y = y;
+                last_z = z;
+            }
+        }
+
+$(document).ready(function(){
+		init();
+
+		$("#backtop").hide();	
+		$(window).scroll(function(){
+			if ($(window).scrollTop()>100){
+				$("#backtop").show();
+			}
+			else
+			{
+				$("#backtop").hide();
+			}
+		});
+		$(".nrebtn").click(function(){
+			$('body,html').animate({scrollTop:0},100);
+			return false;
+		});
+		$('.xiao_q').click(function(){
+			if($(".da_q").css('display')== "block"){
+				$(".da_q").hide();
+				$(".piao_zhao").hide();
+				//$(this).css("background-position","-4px -204px");
+			}else{ 
+				$(".da_q").show();
+				$(".piao_zhao").show();
+
+				//$(this).css("background-position","-60px -204px");
+			}
+		});
+		
+		$('.da_qn a').hover(function(){
+			var index = $('.da_qn a').index(this);
+			$(".da_qn p").hide();
+			$(".da_qn p").eq(index).show();	
+			
+		});	
+			$('.da_qn a').mousedown(function(){
+			var index = $('.da_qn a').index(this);
+			$(".da_qn p").hide();
+			$(".da_qn p").eq(index).show();	
+			
+		});	
+		$('.piao_zhao').click(function(){
+
+			$(this).hide();
+	
+			$(".da_q").hide();
+	
+		});
+
+			
+});
+</script>
+
+ 
+
+</body>
+</html>

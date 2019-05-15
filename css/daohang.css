@@ -1,0 +1,5 @@
+#position{height:56px;background:#b7131c;padding-top:8px;position:fixed;bottom:0px;left:0px;width:100%;z-index:999;overflow:hidden;}
+#position dd{width:20%;text-align:center;float:left;background:url(/demo/20140929/002/images/foot_bg.jpg) repeat-y right top;overflow:hidden;}
+#position dd font{display:block;padding-top:4px;}
+#position dd a{color:#FFF;text-decoration:none;}
+#blank{height:64px;}
